@@ -1,11 +1,15 @@
-Entering the passcode is simple. You aim your crosshair on the key you want to press and do a melee attack. 
-The keypad configuration looks like this:
+Entering the passcode is simple. You aim your crosshair on the key you 
+want to press and do a melee attack. The keypad configuration looks like this:
 
 	[1][2][3]
 	[4][5][6]
 	[7][8][9]
 
-If you type in the wrong passcode, you will have to start over. Use the "no" sound to figure out whether you typed the wrong code and to know when to start retyping the correct code. Also, make sure there are no teammates blocking the keypad as they can stand in your way and prevent you from entering the code. 
+If you type in the wrong passcode, you will have to start over. 
+Use the "no" sound to figure out whether you typed the wrong code and 
+to know when to start retyping the correct code. Also, make sure there 
+are no teammates blocking the keypad as they can stand in your way and 
+prevent you from entering the code. 
 
 Code: 8361
 

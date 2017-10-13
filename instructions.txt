@@ -1,15 +1,29 @@
-Prelude: You'll probably need Notepad++ to do the following steps as we will be opening the zs_viaduct_final map file. You could try using Notepad, but it crashed for me when I tried it. Notepad++ is free to download and you can just do a simple google search to find it.
+Prelude: You'll probably need Notepad++ to do the following steps as we will be opening the zs_viaduct_final map file. You could try using Notepad, but it crashed for me when I tried it. 
+Notepad++ is free to download and you can just do a simple google search to find it.
 
-1. First, we can figure out how many digits the passcode is with a simple trick. Load up the map by typing in your console "map zs_viaduct_final" without the quotes. To start the round, type "tf_bot_add 1" again without the quotes. This spawns a bot and allows you to move around the map. Then, go to the keypad in front of the room and punch random keys. You will notice that every 4th key punch, a faint "no" sound can be heard. That means the passcode is 4 digits long.
+1. First, we can figure out how many digits the passcode is with a simple trick. 
+Load up the map by typing in your console "map zs_viaduct_final" without the quotes. 
+To start the round, type "tf_bot_add 1" again without the quotes. This spawns a bot 
+and allows you to move around the map. Then, go to the keypad in front of the room 
+and punch random keys. You will notice that every 4th key punch, a faint "no" sound 
+can be heard. That means the passcode is 4 digits long.
 
-2. Now that we know the code has 4 digits, we can proceed to analyze the map file. Go to "C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\download\maps" and find the map file. (Note: This is a Windows path file. If you are on Mac (LOL, gaming on a Mac) or Linux, the path will be different.) Open it with Notepad++. 
+2. Now that we know the code has 4 digits, we can proceed to analyze the map file. 
+Go to "C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\download\maps" 
+and find the map file. (Note: This is a Windows path file. If you are on 
+Mac (LOL, gaming on a Mac) or Linux, the path will be different.) Open it with Notepad++. 
 
-3. Now that you have the map file opened. You want to press Ctrl+F (again, this is on Windows and other OS have a different 'find' command) and search for "firstinput". The first result will take you to what looks like the function to check if the first key pressed is correct. There are three cases listed like so:
+3. Now that you have the map file opened. You want to press Ctrl+F (again, this is on 
+Windows and other OS have a different 'find' command) and search for "firstinput". 
+The first result will take you to what looks like the function to check if the first 
+key pressed is correct. There are three cases listed like so:
 
 	Case03 11
 	Case02 777
 	Case01 8
 
-but only one case is plausible. The last case is the only one with one digit only and that is the correct first digit. You can find the rest of the code by searching for "secondinput", "thirdinput" and "fourthinput". 
+but only one case is plausible. The last case is the only one with one digit only 
+and that is the correct first digit. You can find the rest of the code by searching 
+for "secondinput", "thirdinput" and "fourthinput". 
 
 End
