@@ -1,4 +1,5 @@
-Prelude: You'll probably need Notepad++ to do the following steps as we will be opening the zs_viaduct_final map file. You could try using Notepad, but it crashed for me when I tried it. 
+Prelude: You'll probably need Notepad++ to do the following steps as we will be opening 
+the zs_viaduct_final map file. You could try using Notepad, but it crashed for me when I tried it. 
 Notepad++ is free to download and you can just do a simple google search to find it.
 
 1. First, we can figure out how many digits the passcode is with a simple trick. 
